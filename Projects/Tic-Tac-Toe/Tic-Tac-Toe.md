@@ -68,9 +68,9 @@ To do this, we'll create another function
 ```python
 def findWinner(board):
 	#Rows
- 	#Columns
+	#Columns
 	#Diagnoals
- 	#If there isn't a winner yet
+	#If there isn't a winner yet
 ```
 
 we'll also need to pass in the board to check the x and o's in the board
@@ -96,7 +96,7 @@ Therefore to check the first row:
 ```python
 def findWinner(board)
 	#Rows
-  if board[0] == board[1] == board[2]:
+	if board[0] == board[1] == board[2]:
 		#Return x or o (The winner)
  	#Columns
 	#Diagnoals
